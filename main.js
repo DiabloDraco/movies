@@ -1,4 +1,5 @@
 var movies = [
+// Copyright by Mirmuhsin
     {
       "Title": "Patton Oswalt: Annihilation",
       "fulltitle": "Patton Oswalt: Annihilation (2017)",
@@ -64,9 +65,12 @@ var movies = [
       "language": "English",
       "ytid": "8CdIiD6-iF0"
     }
+// Copyright by Mirmuhsin
+
 ]
 var elList = document.querySelector("#list")
 function Render(evt) {
+// Copyright by Mirmuhsin
     
     for (let i = 0; i < movies.length; i++) {
         var newLi = document.createElement('li')
@@ -85,7 +89,7 @@ function Render(evt) {
             newP.textContent = movies[i]["Title"]
         }
     }
-
+// Copyright by Mirmuhsin
 }
 
 Render()
