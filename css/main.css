@@ -1,3 +1,6 @@
+body {
+    background-color: blueviolet;
+}
 #list {
     display: flex;
     justify-content: center;
@@ -5,8 +8,47 @@
     gap: 50px;
     list-style: none;
     flex-wrap: wrap;
+    margin-top: 200px;
 }
 /* Copyright by Mirmuhsin */
 li {
     width: 200px;
+    transition: all ease 0.3s;
+}
+li:hover {
+    transition: all ease 0.3s;
+    transform: scale(1.1);
+}
+img {
+    border-radius: 20px;
+}
+p {
+    color: rgb(47, 4, 87);
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: blueviolet;
+    }
+    #list {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 50px;
+        list-style: none;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    /* Copyright by Mirmuhsin */
+    li {
+        width: 200px;
+    }
+    p {
+        font-weight: 900;
+        color: rgb(52, 3, 99);
+        font-size: 20px;
+        text-align: center;
+    }
 }

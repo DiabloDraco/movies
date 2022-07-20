@@ -75,7 +75,6 @@ function Render(evt) {
     for (let i = 0; i < movies.length; i++) {
         var newLi = document.createElement('li')
         elList.appendChild(newLi)
-        newLi.classList.add(i)
         for (let k = 0; k < 1; k++) {
             var newImg = document.createElement('img')
             newLi.appendChild(newImg)
