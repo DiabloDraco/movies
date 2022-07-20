@@ -4,6 +4,7 @@
     align-items: flex-start;
     gap: 50px;
     list-style: none;
+    flex-wrap: wrap;
 }
 /* Copyright by Mirmuhsin */
 li {
