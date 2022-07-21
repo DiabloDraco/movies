@@ -81,13 +81,11 @@ function Render(evt) {
             newImg.src = movies[i]["ImageURL"]
             newImg.width = 200
             newImg.height = 200
-        }
-        for (let k = 0; k < 1; k++) {
             var newP = document.createElement('p')
             newLi.appendChild(newP)
             newP.textContent = movies[i]["Title"]
+          }
         }
-    }
 // Copyright by Mirmuhsin
 }
 
